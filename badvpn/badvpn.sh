@@ -29,7 +29,7 @@ fi
 }
 checking_sc
 
-REPO="https://raw.githubusercontent.com/ghoibvpnstore/vvip/main/"
+REPO="https://raw.githubusercontent.com/izulx1/vvip/main/"
 wget -q -O /usr/sbin/badvpn "${REPO}badvpn/badvpn"
 chmod +x /usr/sbin/badvpn
 wget -q -O /etc/systemd/system/badvpn-1.service "${REPO}badvpn/badvpn-1.service"
